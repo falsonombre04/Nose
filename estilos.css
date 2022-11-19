@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+	height: 100vh;
+}
+
+/*------------ Cabecera--------------------------*/
+
+header {
+
+	background-color: #3fa59d;
+	padding: 20px 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.empresa{
+	font-size: 2.5em;
+	color: #fff;
+}
+
+.menu {
+
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    padding-right: 30px;
+    font-size: 1.2em;
+}
+
+.menu input {
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+.btnIngreso {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+.btnIngreso:hover{
+
+	opacity: 0.8;
+}
+
+
+
+/*------------Contenedor Principal-----------*/
+main {
+
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 100px;
+	align-items: center;
+
+}
+
+/*-----------------Formulario-------------------------*/
+
+.formulario{
+
+	background-color: #F5F2F8;
+	width: 25%;
+	margin-top: 10px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	height: auto;
+	box-shadow: 1px 1px 1px #00000057;
+}
+
+.formulario h2 {
+
+	padding-bottom: 15px;
+	padding-top: 50px;
+	font-size: 2.8em;
+	font-weight: 300;
+}
+
+.formularioContenido input, select{
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin: 10px 0;
+	height: 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	font-family: Arial;
+}
+
+.formularioContenido input:focus{
+
+	border: 2px solid #3fa59d;
+}
+
+
+select{
+	font-size:1.2em;
+	color: #897979
+}
+
+::placeholder{
+
+	font-size: 1.5em;
+	padding: 2px;
+}
+
+.contenedorImagen{
+
+	width: 40%;
+}
+
+
+.contenedorImagen img{
+
+	width: 100%;
+}
+
+.boton{
+	width: 200px;
+	height: auto;
+	background-color: #3fa59d;
+	margin-top: 20px;
+	font-size: 1.5em;
+	padding: 5px 0;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+
+.boton:hover{
+
+	background-color: #4a7e7a;
+}
+
+/*------------footer--------------*/
+footer{
+
+	background-color:#3fa59d;
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+	overflow: hidden;
+}
